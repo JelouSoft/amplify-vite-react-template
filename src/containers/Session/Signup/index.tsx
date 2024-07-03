@@ -14,7 +14,7 @@ const SignupComponent = () => {
       password: values.password,
       options: {
         userAttributes: {
-          name: values.fullname,
+          name: values.name,
         },
       },
     });
@@ -28,7 +28,7 @@ const SignupComponent = () => {
       <h1>Registro de usuario</h1>
       <TextFieldComponent
         autoFocus
-        name="fullname"
+        name="name"
         config={{ required: true }}
         label="Nombre completo"
       />
