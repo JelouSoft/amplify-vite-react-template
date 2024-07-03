@@ -42,7 +42,7 @@ const RecoverComponent = () => {
         type="username"
       />
       <div className="flex items-center justify-end gap-4">
-        <Link to="/signin" className="text-sm mt-2">
+        <Link to="/signin" className="text-sm mt-3">
           Cancelar
         </Link>
         <SubmitComponent>Continuar</SubmitComponent>
